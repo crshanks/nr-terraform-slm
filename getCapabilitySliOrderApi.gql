@@ -1,0 +1,9 @@
+query ($accountId: Int!) {
+  actor {
+    account(id: $accountId) {
+      nrql(query: "SELECT percentile(duration, 95) FROM Transaction WHERE name = 'WebTransaction/Expressjs/POST//api/order' SINCE 1 week ago") {
+        results
+      }
+    }
+  }
+}
