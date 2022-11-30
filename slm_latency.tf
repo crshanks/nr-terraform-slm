@@ -48,7 +48,3 @@ resource "newrelic_service_level" "foo" {
         }
     }
 }
-
-# output "nrql_dashboard" {
-#   value=newrelic_one_dashboard_json.nrql_dashboard.permalink 
-# }
