@@ -1,5 +1,5 @@
 # New Relic Terraform service levels
-This example shows how you can use the newrelic_service_level resource to provision service levels. It includes an example for composing a dashboard from configuration, making it easy to build complex dashboards with ease.
+This example shows how you can use the newrelic_service_level resource to provision service levels. It includes an example for composing a service level from configuration.
 
 * [syn_latency.tf](slm_latency.tf) - this example creates a latency service level capability against the 'FeedMe' application's order api endpoint.
 
